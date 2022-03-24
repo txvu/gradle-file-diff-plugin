@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e32d15d-2b0f-4697-bbce-4fd749d5d71c" name="Changes" comment="Added Spock Core">
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/dev/3amlab/plugins/filediff/FileDiffExtension.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/dev/3amlab/plugins/filediff/FileDiffPlugin.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/dev/3amlab/plugins/filediff/FileDiffTask.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INT/gradle-plugins/dev.3amlab/file-diff.properties" afterDir="false" />
+    <list default="true" id="8e32d15d-2b0f-4697-bbce-4fd749d5d71c" name="Changes" comment="Added task files">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/groovy/dev/3amlab/plugins/filediff/FillDiffPluginIntegrationTest.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/groovy/dev/3amlab/plugins/filediff/FileDiffExtension.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/groovy/dev/3amlab/plugins/filediff/FileDiffExtension.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/groovy/dev/3amlab/plugins/filediff/FileDiffTask.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/groovy/dev/3amlab/plugins/filediff/FileDiffTask.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,11 +71,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -88,7 +92,7 @@
       <updated>1648075461983</updated>
       <workItem from="1648075463548" duration="10000" />
       <workItem from="1648075488768" duration="245000" />
-      <workItem from="1648075751507" duration="4720000" />
+      <workItem from="1648075751507" duration="7033000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1648075593429</created>
@@ -104,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648076447711</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added task files">
+      <created>1648089820188</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1648089820188</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,7 +135,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
     <MESSAGE value="Added Spock Core" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Spock Core" />
+    <MESSAGE value="Added task files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added task files" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

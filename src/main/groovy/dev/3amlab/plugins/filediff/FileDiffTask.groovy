@@ -8,7 +8,7 @@ class FileDiffTask extends DefaultTask {
     Property<File> file1
     @InputFile
     Property<File> file2
-
+    @InputFile
     File resultFile = new File("${project.buildDir}/diff-result.txt")
 
     @TaskAction
