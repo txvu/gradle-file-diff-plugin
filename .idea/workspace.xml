@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e32d15d-2b0f-4697-bbce-4fd749d5d71c" name="Changes" comment="Init">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8e32d15d-2b0f-4697-bbce-4fd749d5d71c" name="Changes" comment="Added Spock Core">
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/dev/3amlab/plugins/filediff/FileDiffExtension.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/dev/3amlab/plugins/filediff/FileDiffPlugin.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/dev/3amlab/plugins/filediff/FileDiffTask.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INT/gradle-plugins/dev.3amlab/file-diff.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
@@ -48,10 +50,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="26o28pXu1sVO3ys27GWcqGWczjz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -75,7 +88,7 @@
       <updated>1648075461983</updated>
       <workItem from="1648075463548" duration="10000" />
       <workItem from="1648075488768" duration="245000" />
-      <workItem from="1648075751507" duration="679000" />
+      <workItem from="1648075751507" duration="4720000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1648075593429</created>
@@ -84,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648075593429</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Spock Core">
+      <created>1648076447711</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1648076447711</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,7 +123,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Added Spock Core" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Spock Core" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
